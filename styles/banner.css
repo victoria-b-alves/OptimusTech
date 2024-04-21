@@ -1,0 +1,20 @@
+.banner {
+    text-align: center;
+    margin: 9em auto;
+}
+.banner__subtitulo {
+    font-weight: 600;
+    color: var(--elementos-destaque);
+}
+.banner__titulo{
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--textos-negrito);
+    padding: .7em;
+}
+.banner__conteudo{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0 auto;
+    width: 40vw;
+}

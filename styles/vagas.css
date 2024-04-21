@@ -1,0 +1,58 @@
+.vagas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    padding: 7em 11em;
+}
+
+.vagas__subtitulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--elementos-destaque);
+    background: var(--fundo-destaque);
+    border-radius: 2.5em;
+    padding: .5em;
+}
+.vagas__titulo{
+    color: var(--textos-negrito);
+    font-size: 36px;
+    font-weight: 700;
+    padding: 1em;
+    text-align: center;
+}
+.vagas__texto{
+    font-size: 20px;
+    padding-bottom: 3em;
+    text-align: center;
+}
+.vagas__img {
+    width: 70vw;
+}
+
+.vagas__departamento {
+    padding-bottom: 1em;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--textos-negrito);
+}
+.vagas__abertas {
+    width: 40%;
+    margin: 0 auto;
+}
+.vagas__cards {
+    margin: 1em 0;
+    border: .1em solid var(--bordas-vagas);
+    border-radius: .6em;
+    padding: 1em;
+}
+.vagas__card__titulo{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--textos-negrito);
+    padding: .3em 0 1.5em 0;
+}
+.vagas__card__descricao {
+    padding: 1em;
+}

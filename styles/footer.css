@@ -1,0 +1,26 @@
+.rodape{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5em;
+    background-color:  var(--fundo-rodape);
+}
+.rodape__titulo{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--textos-negrito);
+}
+.rodape__subtitulo {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1em;
+}
+#cadastro {
+    border: .1em solid var(--borda-email);
+    border-radius: .5em;
+    padding: 1em;
+    width: 20vw;
+    margin: 1em;
+}
+.rodape__copyright{
+    padding: 1em;
+}
